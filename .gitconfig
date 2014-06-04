@@ -1,0 +1,19 @@
+[user]
+	name = Chris Pearson
+	email = chris@cpearson.me.uk
+[color]
+	ui = auto
+[alias]
+    st = status
+    ci = commit
+    co = checkout
+    br = branch
+	fuck = reset HEAD --hard
+[core]
+	excludesfile = ~/.gitignore_global
+[difftool "sourcetree"]
+	cmd = opendiff \"$LOCAL\" \"$REMOTE\"
+	path =
+[mergetool "sourcetree"]
+	cmd = /Applications/SourceTree.app/Contents/Resources/opendiff-w.sh \"$LOCAL\" \"$REMOTE\" -ancestor \"$BASE\" -merge \"$MERGED\"
+	trustExitCode = true
