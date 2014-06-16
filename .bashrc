@@ -7,6 +7,7 @@ alias la="ls -A"
 alias gti="git"
 
 source ~/.git-prompt.sh
+source ~/.git-completion.sh
 source `brew --repository`/Library/Contributions/brew_bash_completion.sh
 
 export PAGER="less"
