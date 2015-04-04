@@ -5,6 +5,7 @@ alias l="ls"
 alias ll="ls -l"
 alias la="ls -A"
 alias gti="git"
+alias c="clear"
 
 source ~/.git-prompt.sh
 source ~/.git-completion.sh
@@ -22,3 +23,6 @@ bind "set completion-ignore-case on"
 # RVM stuff
 export PATH="$PATH:$HOME/.rvm/bin" # Add RVM to PATH for scripting
 [[ -s "$HOME/.rvm/scripts/rvm" ]] && source "$HOME/.rvm/scripts/rvm" # Load RVM into a shell session *as a function*
+
+# Node Version Manager stuff
+source ~/.nvm/nvm.sh
