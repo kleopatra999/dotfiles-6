@@ -20,9 +20,5 @@ export PATH="/usr/local/sbin:$PATH:/Users/themaninthesuitcase/Source/bin"
 
 bind "set completion-ignore-case on"
 
-# RVM stuff
-export PATH="$PATH:$HOME/.rvm/bin" # Add RVM to PATH for scripting
-[[ -s "$HOME/.rvm/scripts/rvm" ]] && source "$HOME/.rvm/scripts/rvm" # Load RVM into a shell session *as a function*
-
 # Node Version Manager stuff
 source ~/.nvm/nvm.sh
