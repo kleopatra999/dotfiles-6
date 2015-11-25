@@ -19,8 +19,6 @@ source ~/.git-prompt.sh
 source ~/.git-completion.sh
 # homebrew auto completion
 source `brew --repository`/Library/Contributions/brew_bash_completion.sh
-# Node Version Manager stuff
-source ~/.nvm/nvm.sh
 # added by travis gem
 [ -f /Users/themaninthesuitcase/.travis/travis.sh ] && source /Users/themaninthesuitcase/.travis/travis.sh
 
