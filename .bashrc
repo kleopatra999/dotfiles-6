@@ -18,7 +18,7 @@ alias c="clear"
 source ~/.git-prompt.sh
 source ~/.git-completion.sh
 # homebrew auto completion
-source `brew --repository`/Library/Contributions/brew_bash_completion.sh
+# source `brew --repository`/Library/Contributions/brew_bash_completion.sh
 # added by travis gem
 [ -f /Users/themaninthesuitcase/.travis/travis.sh ] && source /Users/themaninthesuitcase/.travis/travis.sh
 
