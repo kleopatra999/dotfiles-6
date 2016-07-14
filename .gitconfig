@@ -8,7 +8,7 @@
     ci = commit
     co = checkout
     br = branch
-		fuck = reset HEAD --hard
+    fuck = reset HEAD --hard
 [core]
 	excludesfile = ~/.gitignore_global
 [push]
